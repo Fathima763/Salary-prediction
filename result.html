@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            text-align: center;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .prediction {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #333;
+        }
+        a {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Prediction Result</h1>
+
+    <p class="prediction">
+        The predicted value is: <strong>{{ prediction }}</strong>
+    </p>
+
+    <a href="/">Go Back</a>
+</div>
+
+</body>
+</html>
